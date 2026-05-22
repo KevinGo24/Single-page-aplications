@@ -5,10 +5,12 @@
 }
 
 body {
-    height: 100%;
     padding: 10px;
-    background-color: burlywood;
+    background:linear-gradient(150deg, cadetblue,white);
     font-family: 'Times New Roman', Times, serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 
 header{
