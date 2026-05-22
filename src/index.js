@@ -1,2 +1,5 @@
 import './style.scss'
-console.log('hola que tal')
+import {enreutanamiento} from "./router/index.routes";
+window.addEventListener('hashchange',()=>{
+    console.log(window.location.hash)
+})
