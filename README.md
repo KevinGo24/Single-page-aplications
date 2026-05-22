@@ -9,7 +9,7 @@ herramientas --> HTML - CSS - SCSS - JAVASCRIPT - WEBPACK
 
 <img width="1000" height="500" border-radius="20px" alt="image" src="https://github.com/user-attachments/assets/1b0bc9c3-33a6-449e-9caa-09a19cd81598" />
 <img width="1000" height="500" border-radius="20px" alt="download" src="https://github.com/user-attachments/assets/49362c08-92a2-4838-8c62-5630821e2543" />
-```
+``` text
 Webpack
 
 ```
