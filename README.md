@@ -24,4 +24,6 @@ Montar servidor --> npx webpack-dev-D
 Node --> npm i -y
 scss loader --> npm i sass-loader  -D
 Node-scss --> npm i node-sass -D
+Style-loader --> npm i style-loader -D
+Css-loader --> npm i css-loader -D 
 ```
