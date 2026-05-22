@@ -20,7 +20,7 @@ herramientas --> HTML - CSS - SCSS - JAVASCRIPT - WEBPACK
 # Comandos para el proyecto
 
 ``` text
-montar servidor --> npx webpack-dev-D
-proyecto --> Single page appliactions
-herramientas --> HTML - CSS - SCSS - JAVASCRIPT - WEBPACK
+Montar servidor --> npx webpack-dev-D
+Node --> npm i -y
+scss loader --> npm i sass-loader  -D
 ```
