@@ -17,3 +17,10 @@ herramientas --> HTML - CSS - SCSS - JAVASCRIPT - WEBPACK
 
 <img width="600" height="200" border-radius="20px" alt="download" src="https://github.com/user-attachments/assets/777cf51f-a799-409d-aa0c-25aadbb83475" />
 
+# Comandos para el proyecto
+
+``` text
+montar servidor --> npx webpack-dev-D
+proyecto --> Single page appliactions
+herramientas --> HTML - CSS - SCSS - JAVASCRIPT - WEBPACK
+```
