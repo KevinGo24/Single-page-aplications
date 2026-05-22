@@ -16,6 +16,7 @@ herramientas --> HTML - CSS - SCSS - JAVASCRIPT - WEBPACK
 <img width="600" height="200" border-radius="20px" alt="download" src="https://github.com/user-attachments/assets/ae7b4e58-e229-48bf-899e-b07089dbec68" />
 
 <img width="600" height="200" border-radius="20px" alt="download" src="https://github.com/user-attachments/assets/777cf51f-a799-409d-aa0c-25aadbb83475" />
+<img width="600" height="200" border-radius="20px" alt="download" src="https://github.com/user-attachments/assets/dc6867bf-326e-4e52-b881-16de0d1d31fb" />
 
 # Comandos para el proyecto
 
