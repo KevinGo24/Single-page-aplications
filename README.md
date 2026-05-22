@@ -6,15 +6,25 @@ herramientas --> HTML - CSS - SCSS - JAVASCRIPT - WEBPACK
 ```
 # Imagenes de las herraminetas a utilizar
 
-## Web Pack
+``` text
+Web pack
+```
 <img width="1000" height="500" border-radius="20px" alt="image" src="https://github.com/user-attachments/assets/1b0bc9c3-33a6-449e-9caa-09a19cd81598" />
-#javascript
+``` text
+java Script
+```
 <img width="1000" height="500" border-radius="20px" alt="download" src="https://github.com/user-attachments/assets/49362c08-92a2-4838-8c62-5630821e2543" />
-# H T M L
+``` text
+html
+```
 <img width="1000" height="500" border-radius="20px" alt="download" src="https://github.com/user-attachments/assets/473aab45-5bb7-4baa-a30f-050a676f09a6" />
-# C S S 
+``` text
+css
+```
 <img width="1000" height="500" border-radius="20px" alt="download" src="https://github.com/user-attachments/assets/ae7b4e58-e229-48bf-899e-b07089dbec68" />
-# S C S S
+``` text
+scss
+```
 <img width="1000" height="500" border-radius="20px" alt="download" src="https://github.com/user-attachments/assets/777cf51f-a799-409d-aa0c-25aadbb83475" />
 
 
