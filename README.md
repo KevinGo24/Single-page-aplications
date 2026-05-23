@@ -22,6 +22,7 @@ herramientas --> HTML - CSS - SCSS - JAVASCRIPT - WEBPACK
 
 ``` text
 instalar webpack + cli --> npm install webpack webpack-cli -D
+instalar copilador de sass --> npm install sass -D
 descargar servidor --> npm i webpack-dev-server -D 
 Montar servidor --> npx webpack-dev-D
 Node --> npm i -y
