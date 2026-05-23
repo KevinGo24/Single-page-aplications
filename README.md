@@ -21,6 +21,7 @@ herramientas --> HTML - CSS - SCSS - JAVASCRIPT - WEBPACK
 # Comandos para el proyecto
 
 ``` text
+instalar webpack + cli --> npm install webpack webpack-cli -D
 Montar servidor --> npx webpack-dev-D
 Node --> npm i -y
 scss loader --> npm i sass-loader  -D
