@@ -3,19 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     padding: 10px;
-    background:linear-gradient(150deg, cadetblue,white);
+    background-color: #201927;
     font-family: 'Times New Roman', Times, serif;
     background-repeat: no-repeat;
     background-size: cover;
-    
+    margin: 10px;
 }
 
 header{
-    justify-content: first baseline;
-    padding: 20px;
+    justify-content: center;
+    padding: 10px;
     height: 100%;
     width: 100%;
     .marca {
@@ -32,14 +31,15 @@ header{
         strong {
             font-size: 10px;
             letter-spacing: 2px;
+            color: #fc1517;
         }
     }
 
-    .navbar {
+    .navbar{
         display: flex;
         align-items: center;
-        border: 3px solid black;
-        background-color: cadetblue;
+        border: white solid 3px;
+        background-color: #201927;
         height: 100%;
         width: 100%;
         justify-content: space-between;
@@ -57,5 +57,55 @@ header{
             font-size: 20px;
             letter-spacing: 2px;
         }
+    }
+}
+section{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 500px;
+    width: 100%;
+    background-image: url(/src/Picture/1009981.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: .5s;
+    box-shadow: 0px 0px 10px 0px #fc1517;
+    border-radius: 10px;
+    h1{
+        padding-top: 150px;
+        color: #fc1517;
+        font-weight: bolder;
+        letter-spacing: 2px;
+    }
+    p{
+        color: white;
+        letter-spacing: 3px;
+    }
+}
+main {
+    display: flex;          // Ponemos los hijos (.card) uno al lado del otro
+    flex-wrap: wrap;       // Si no caben en la pantalla, saltan a la siguiente línea abajo
+    gap: 20px;             // Crea un espacio limpio de 20px entre cada tarjeta
+    justify-content: center; // Centra las tarjetas en la pantalla (opcional, se ve genial)
+    padding: 20px;
+    
+}
+.card{
+    box-shadow: 0px 0px 10px 0px #fc1517;
+    height: 400px;
+    width: 400px;
+    padding: 20px;
+    .card_1{
+        background-image: url(/src/Picture/1079551.png);
+        height: 250px;
+        width: 100%;
+    }
+    .text{
+        padding: 20px;
+        color: white;
     }
 }
