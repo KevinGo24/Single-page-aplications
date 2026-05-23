@@ -87,10 +87,10 @@ section{
     }
 }
 main {
-    display: flex;          // Ponemos los hijos (.card) uno al lado del otro
-    flex-wrap: wrap;       // Si no caben en la pantalla, saltan a la siguiente línea abajo
-    gap: 20px;             // Crea un espacio limpio de 20px entre cada tarjeta
-    justify-content: center; // Centra las tarjetas en la pantalla (opcional, se ve genial)
+    display: flex; 
+    flex-wrap: wrap;   
+    gap: 20px;             
+    justify-content: center;
     padding: 20px;
     
 }
