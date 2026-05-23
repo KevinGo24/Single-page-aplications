@@ -1,4 +1,4 @@
-import home from "../Views/Referencias";
+import home from "../controller/index.controller";
 
 const rout = document.getElementById('master');
 
@@ -6,8 +6,8 @@ const enreutanamiento = (router) => {
     rout.innerHTML = '';
 
     switch (router) {
-        // Esto atrapa cualquier variante del inicio (vacío, solo #, o #/)
-        case "#/": {  // <--- AGREGA ESTA LÍNEA AQUÍ
+        
+        case "#/": {  
            console.log("alerta roja")
            break
         }
