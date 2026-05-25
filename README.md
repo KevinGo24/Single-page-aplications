@@ -24,7 +24,7 @@ herramientas --> HTML - CSS - SCSS - JAVASCRIPT - WEBPACK
 instalar webpack + cli --> npm install webpack webpack-cli -D
 instalar copilador de sass --> npm install sass -D
 descargar servidor --> npm i webpack-dev-server -D 
-Montar servidor --> npx webpack-dev-D
+Montar servidor y mostar en el navegador --> npx webpack serve --open
 Node --> npm i -y
 scss loader --> npm i sass-loader  -D
 Node-scss --> npm i node-sass -D
