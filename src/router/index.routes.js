@@ -19,14 +19,10 @@ const enreutanamiento = (router) => {
             );
             break;
         }
-
-        case '#/Publicaciones': {
-            console.log('publicaciones');
-            break;
-        }
-
         case '#/Ubicacion': {
-            console.log('ubicacion');
+                rout.appendChild(
+                pages_controller.ubicacion()
+            )
             break;
         }
 
