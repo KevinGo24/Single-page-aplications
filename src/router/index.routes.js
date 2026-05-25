@@ -2,7 +2,7 @@ import { pages_controller } from "../controller/main.controller";
 
 const rout = document.getElementById('master');
 
-const enreutanamiento = (router) => {
+const enreutanamiento =  async (router) => {
 
     rout.innerHTML = '';
 
@@ -19,8 +19,14 @@ const enreutanamiento = (router) => {
             );
             break;
         }
+        case '#/Publicaciones': {
+            rout.appendChild (
+               await pages_controller.ubicacion()
+            );
+            break;
+        }
         case '#/Ubicacion': {
-                rout.appendChild(
+            rout.appendChild(
                 pages_controller.ubicacion()
             )
             break;
