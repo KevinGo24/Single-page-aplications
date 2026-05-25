@@ -1,7 +1,9 @@
 import referencia from "./referencia.controller";
+import ubicacion from "./ubicacion.controller"
 
 const pages_controller = {
-    referencia
+    referencia,
+    ubicacion
 }
 
 export { pages_controller };
