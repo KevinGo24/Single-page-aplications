@@ -9,6 +9,7 @@ body {
     font-family: 'Times New Roman', Times, serif;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     margin: 10px;
 }
 
@@ -57,9 +58,16 @@ header{
             font-size: 20px;
             letter-spacing: 2px;
         }
+        li{
+            transition: .5s;
+        }
+        li:hover{
+            transform: scale(1.1);
+            text-decoration: underline #fc1517;
+        }
     }
 }
-section{
+.master_section{
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -70,13 +78,12 @@ section{
     height: 500px;
     width: 100%;
     background-image: url(/src/Picture/1009981.jpg);
-    background-position: center;
     background-size: cover;
     box-shadow: 0px 0px 10px 0px #fc1517;
     border-radius: 10px;
     h1{
         padding-top: 150px;
-        color: #fc1517;
+        color: white;
         font-weight: bolder;
         letter-spacing: 2px;
     }
@@ -99,40 +106,60 @@ main {
     width: 400px;
     padding: 20px;
     .card_1{
-        background-image: url(/src/Picture/1079551.png);
+        background-image: url(Picture/1022371.jpg);
+        background-size: cover;
         height: 250px;
         width: 100%;
     }
     .text{
         padding: 20px;
         color: white;
+        font-size: 15px;
     }
 }
 
 .conatiner-referencia{
-    background-image: url(/src/Picture/wallpaperbetter.com_1920x1080\ \(7\).jpg);
+    background:linear-gradient(150deg,#201927,#fc1517);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     flex-direction: column;
     display: flex;
-    gap: 20px;
-    height: 100%;
-    width: 100%;
-    button{
-        padding: 10px;
-        color: #fc1517;
-        background-color: #201927;
-        font-weight: bolder;
-        font-size: 20px;
-        border: none;
-        border-radius: 10px;
-        cursor: pointer;
-        transition: .5s;
-    }
-    
+    gap: 15px;
+    height:500px;
+    width: 400px;
+    padding: 20px;
+    border-radius: 20px;
 }
-
+h1{
+    color: white;
+    text-decoration: underline;
+    text-align: center;
+    font-weight: bolder;
+}
+h2{
+    color: white;
+    text-decoration: underline #fc1517;
+}
+button{
+    padding: 10px;
+    color:wheat;
+    background-color: #201927;
+    font-weight: bolder;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .5s;
+    width: 100%;
+}
+input{
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    font-style: oblique;
+}
 button:hover{
     transform: scale(1.1);
+    background:linear-gradient(1000deg,#201927,#fc1517);
 }
