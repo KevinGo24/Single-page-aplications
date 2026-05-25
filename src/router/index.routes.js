@@ -1,31 +1,38 @@
-import home from "../controller/index.controller";
+import { pages_controller } from "../controller/main.controller";
 
 const rout = document.getElementById('master');
 
 const enreutanamiento = (router) => {
+
     rout.innerHTML = '';
 
     switch (router) {
-        
-        case "#/": {  
-           console.log("alerta roja")
-           break
+
+        case "#/": {
+            console.log("inicio");
+            break;
         }
+
         case '#/Referencias': {
-            return rout.appendChild(home());
+            rout.appendChild(
+                pages_controller.referencia()
+            );
+            break;
         }
+
         case '#/Publicaciones': {
             console.log('publicaciones');
-            break
+            break;
         }
+
         case '#/Ubicacion': {
             console.log('ubicacion');
-            break
+            break;
         }
+
         default: {
             rout.innerHTML = '<h2>Error 404: Not Found</h2>';
-            console.log('error 404: not found. Ruta recibida:', router);
-
+            console.log('Ruta recibida:', router);
         }
     }
 }
