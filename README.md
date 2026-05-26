@@ -33,7 +33,7 @@ Style-loader --> npm i style-loader -D
 Css-loader --> npm i css-loader -D
 Html-plugins -->  npm i html-webpack-plugins -D
 ```
-
+# Arbol del proyecto
 ``` text
 
 src
