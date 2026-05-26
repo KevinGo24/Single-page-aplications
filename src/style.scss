@@ -11,13 +11,12 @@ body {
     background-size: cover;
     background-attachment: fixed;
     margin: 10px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
 }
 
 header{
-    justify-content: center;
-    padding: 10px;
-    height: 100%;
-    width: 100%;
     .marca {
         display: flex;
         text-align: center;
