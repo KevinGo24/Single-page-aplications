@@ -21,7 +21,7 @@ const enreutanamiento =  async (router) => {
         }
         case '#/Publicaciones': {
             rout.appendChild (
-               await pages_controller.ubicacion()
+               await pages_controller.post()
             );
             break;
         }
